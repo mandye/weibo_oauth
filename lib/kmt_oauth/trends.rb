@@ -1,6 +1,7 @@
 module KmtOAuth
   class Client
     
+    # weibo 没有的功能
     # Returns the top ten topics that are currently trending on Twitter.
     def trends
       get("/trends/daily.json")

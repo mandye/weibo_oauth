@@ -1,6 +1,7 @@
 module KmtOAuth
   class Client
     
+    # weibo 没有的功能
     #
     # List methods
     #

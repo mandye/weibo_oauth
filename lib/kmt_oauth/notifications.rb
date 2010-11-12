@@ -1,6 +1,7 @@
 module KmtOAuth
   class Client
     
+    # weibo 没有的功能
     # Enables device notifications for updates from the specified user.  
     # Returns the specified user when successful.
     def follow(id)

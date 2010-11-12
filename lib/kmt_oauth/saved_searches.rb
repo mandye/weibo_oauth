@@ -1,6 +1,7 @@
 module KmtOAuth
   class Client
     
+    # weibo 没有的功能
     # Returns the authenticated user's saved search queries.
     def saved_searches
       get("/saved_searches.json")
