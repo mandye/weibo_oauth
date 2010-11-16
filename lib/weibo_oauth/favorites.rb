@@ -1,4 +1,4 @@
-module KmtOAuth
+module WeiboOAuth
   class Client
     
     # Returns the 20 most recent favorite statuses for the authenticating user or user specified by the ID parameter.

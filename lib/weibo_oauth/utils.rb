@@ -1,4 +1,4 @@
-module KmtOAuth
+module WeiboOAuth
   class Client
     CRLF = "\r\n"
     

@@ -1,6 +1,6 @@
 require 'open-uri'
 
-module KmtOAuth
+module WeiboOAuth
   class Client
     
     def search(q, options={})
@@ -36,7 +36,7 @@ module KmtOAuth
     
     private
       def search_get(path)
-        response = open('http://api.t.sina.com.cn' + path, 'User-Agent' => 'github.com/panfu/kmt_outh')
+        response = open('http://api.t.sina.com.cn' + path, 'User-Agent' => 'github.com/panfu/weibo_outh')
         JSON.parse(response.read)
       end
   end

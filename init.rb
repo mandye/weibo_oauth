@@ -1,8 +1,8 @@
 begin
-  require File.join(File.dirname(__FILE__), 'lib', 'kmt_oauth') # From here
+  require File.join(File.dirname(__FILE__), 'lib', 'weibo_oauth') # From here
 rescue LoadError
   begin
-    require 'kmt_oauth' # From gem
+    require 'weibo_oauth' # From gem
   rescue LoadError => e
     # gems:install may be run to install Haml with the skeleton plugin
     # but not the gem itself installed.

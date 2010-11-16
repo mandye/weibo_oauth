@@ -1,22 +1,22 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{kmt_oauth}
+  s.name = %q{weibo_oauth}
   s.version = "0.0.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Richard Taylor"]
+  s.authors = ["panfu"]
   s.date = %q{2010-06-13}
-  s.description = %q{kmt_oauth is a Ruby library for talking to t.sina using the new oauth method.}
+  s.description = %q{weibo_oauth is a Ruby library for talking to t.sina using the new oauth method.}
   s.email = %q{panfu.gz@gmail.com}
-  s.files = ["LICENSE", "README.textile","lib/kmt_oauth.rb"] + Dir.glob('lib/kmt_oauth/*.rb')
+  s.files = ["LICENSE", "README.textile","lib/weibo_oauth.rb"] + Dir.glob('lib/weibo_oauth/*.rb')
   s.has_rdoc = false
-  s.homepage = %q{http://github.com/panfu/kmt_oauth}
+  s.homepage = %q{http://github.com/panfu/weibo_oauth}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{kmt_oauth}
+  s.rubyforge_project = %q{weibo_oauth}
   s.rubygems_version = %q{1.3.1}
-  s.summary = %q{kmt_oauth is a Ruby library for talking to t.sina using the new oauth method.}
+  s.summary = %q{weibo_oauth is a Ruby library for talking to t.sina using the new oauth method.}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION

@@ -1,4 +1,4 @@
-module KmtOAuth
+module WeiboOAuth
   class Client
     
     # Returns the 20 most recent statuses from non-protected users who have set a custom user icon.

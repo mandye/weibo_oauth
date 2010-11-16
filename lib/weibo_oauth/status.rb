@@ -1,4 +1,4 @@
-module KmtOAuth
+module WeiboOAuth
   class Client
     
     # Returns a single status, specified by the id parameter below.

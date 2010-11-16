@@ -2,7 +2,7 @@ require 'oauth'
 require 'json'
 require 'mime/types'
 
-require 'kmt_oauth/client'
+require 'weibo_oauth/client'
 
-module KmtOAuth
+module WeiboOAuth
 end

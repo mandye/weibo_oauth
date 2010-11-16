@@ -1,4 +1,4 @@
-module KmtOAuth
+module WeiboOAuth
   class Client
     
     # Returns an array of numeric IDs for every user the specified user is following.

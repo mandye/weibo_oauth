@@ -1,4 +1,4 @@
-module KmtOAuth
+module WeiboOAuth
   class Client
     
     # Return the most recent direct messages sent to the authenticating user.

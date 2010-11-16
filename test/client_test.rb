@@ -1,7 +1,7 @@
 require File.join(File.dirname(__FILE__), "/test_helper")
 
 class ClientTest < Test::Unit::TestCase
-  include KmtOAuth
+  include WeiboOAuth
 
   context "A client instance" do
 
@@ -9,8 +9,8 @@ class ClientTest < Test::Unit::TestCase
       @client = Client.new
     end
 
-    should "be kind of KmtOAuth" do
-      assert_kind_of KmtOAuth::Client, @client
+    should "be kind of WeiboOAuth" do
+      assert_kind_of WeiboOAuth::Client, @client
     end
 
     context "authentication_request_token" do

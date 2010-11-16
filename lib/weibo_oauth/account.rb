@@ -1,4 +1,4 @@
-module KmtOAuth
+module WeiboOAuth
   class Client
     
     # Returns an HTTP 200 OK response code and a representation of the requesting user if authentication was successful; 

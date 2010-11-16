@@ -1,22 +1,22 @@
 require 'pp'
 
-require 'kmt_oauth/timeline'
-require 'kmt_oauth/status'
-require 'kmt_oauth/account'
-require 'kmt_oauth/direct_messages'
-require 'kmt_oauth/search'
-require 'kmt_oauth/notifications'
-require 'kmt_oauth/blocks'
-require 'kmt_oauth/friendships'
-require 'kmt_oauth/user'
-require 'kmt_oauth/favorites'
-require 'kmt_oauth/utils'
-require 'kmt_oauth/trends'
-require 'kmt_oauth/lists'
-require 'kmt_oauth/saved_searches'
-require 'kmt_oauth/spam'
+require 'weibo_oauth/timeline'
+require 'weibo_oauth/status'
+require 'weibo_oauth/account'
+require 'weibo_oauth/direct_messages'
+require 'weibo_oauth/search'
+require 'weibo_oauth/notifications'
+require 'weibo_oauth/blocks'
+require 'weibo_oauth/friendships'
+require 'weibo_oauth/user'
+require 'weibo_oauth/favorites'
+require 'weibo_oauth/utils'
+require 'weibo_oauth/trends'
+require 'weibo_oauth/lists'
+require 'weibo_oauth/saved_searches'
+require 'weibo_oauth/spam'
 
-module KmtOAuth
+module WeiboOAuth
   class Client
     
     def initialize(options = {})
