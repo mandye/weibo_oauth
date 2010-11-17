@@ -4,17 +4,11 @@ require 'weibo_oauth/timeline'
 require 'weibo_oauth/status'
 require 'weibo_oauth/account'
 require 'weibo_oauth/direct_messages'
-require 'weibo_oauth/search'
 require 'weibo_oauth/notifications'
-require 'weibo_oauth/blocks'
 require 'weibo_oauth/friendships'
 require 'weibo_oauth/user'
 require 'weibo_oauth/favorites'
 require 'weibo_oauth/utils'
-require 'weibo_oauth/trends'
-require 'weibo_oauth/lists'
-require 'weibo_oauth/saved_searches'
-require 'weibo_oauth/spam'
 
 module WeiboOAuth
   class Client
